@@ -7,9 +7,18 @@ using System.Threading.Tasks;
 namespace Delagates
 {
     class Program
-    {
+    {        
         static void Main(string[] args)
         {
+            var cmd = new CommandProcessor()
+            {
+                Name = "Command 1"
+            };
+
+            cmd.Execute();
+
+            Console.Read();
+            
         }
     }
 }
