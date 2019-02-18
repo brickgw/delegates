@@ -44,11 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandProcessor.cs" />
+    <Compile Include="CommandSequences\BasicSequence.cs" />
+    <Compile Include="Commands\Offline.cs" />
+    <Compile Include="Commands\Online.cs" />
+    <Compile Include="CommandType.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="ICommandSequence.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
